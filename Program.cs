@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            HelloWorld();
+            Console.ReadLine();
+        }
+        private static void HelloWorld()
+        {
+            Console.WriteLine("Hello world!");
         }
     }
 }
